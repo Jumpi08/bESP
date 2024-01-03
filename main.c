@@ -38,6 +38,7 @@ int main(void)
 	const int screen_height = 0xFF*4;
 
 	InitWindow(screen_width,screen_height,"bESP");
+	SetTargetFPS(30);
 
 	while(!WindowShouldClose())
 	{
